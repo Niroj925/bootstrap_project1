@@ -67,7 +67,9 @@ margin-bottom: 10px
         transform: rotate(0deg);
     }
   }
-/*feature box*/
+.feature-box{
+    text-align: center;
+}
  
   /*if same properties of css we can make same class 
   and kept all things in a single block
