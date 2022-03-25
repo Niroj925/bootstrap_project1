@@ -1,0 +1,121 @@
+
+body{
+    font-family:ubuntu;
+}
+#color{
+    background-color: #8ac7c7;
+}
+.text{
+    font-size:3rem;
+    line-height:2em;
+    padding-left: 10px;
+}
+.container{
+margin-bottom: 10px
+}
+.container-fluid{
+    padding:5% 20%;
+    margin-bottom: 3%;
+}
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  #nav{
+      padding:0px 10px;
+  }
+  .navbar-item{
+   padding:0px 20px;
+   font-size: 1.5rem;
+  }
+  .nav-link{
+      font-size: 1.5rem;
+      font-family:ubuntu;
+      font-weight: bold;
+  }
+  .download-button{
+      margin:5% 5% 5% 0%;
+  }
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  #nb{
+      font-family: ubuntu;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: rgb(156, 99, 99);
+      padding-left: 0px;
+  }
+  .image{
+      width:55%;
+      margin-top: 10%;
+      /*for rotation*/
+      transform: rotate(20deg);
+  }
+  /*screen rotate if moves down image using media queries*/
+  @media(max-width:991px){
+    .image{
+        width:35%;
+        margin-top: 10%;
+        /*for rotation*/
+        transform: rotate(0deg);
+    }
+  }
+/*feature box*/
+ 
+  /*if same properties of css we can make same class 
+  and kept all things in a single block
+  */
+  /*we can use hierarchical order that parent and then parent
+  child  */
+  h2,h3,.btntext,.text{
+       font-family:ubuntu;
+       font-weight: bold;
+  }
+    .icon{
+        color:rgb(20, 128, 101);
+        margin-bottom: 10px;
+    }
+    .icon:hover{
+        color:rgb(20, 202, 111);
+    }
+    /*for side cariosel*/
+    #slides{
+        margin: 0 0.3%;
+    }
+    #imgg{
+        width: 40%;
+        height:60%;
+        margin-left:39%;
+    }
+      /*for card properties*/
+    .card{
+        margin: 4% 3% 2% 2%;
+    }
+    .btntext{
+        font-size: 2rem;
+        color: rgb(102, 98, 93);
+    }
+    #contact{
+        width: 100%;
+        height: 30%;
+        margin-top: 5px;
+        text-align: center;
+        background-color: #559092;
+    }
+    #icn{
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        color:black;
+    }
+    #icn.fa{
+        width: 30px;
+        height: 30px;
+    }
